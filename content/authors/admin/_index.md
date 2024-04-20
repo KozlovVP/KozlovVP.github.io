@@ -34,6 +34,14 @@ profiles:
     url: 'vsvldkzlv@gmail.com'
     label: E-mail Me
 
+  -icon: github
+   url: https://github.com/KozlovVP
+   label: Github
+
+  -icon: telegram
+   url: @teg038
+   label: Telegram
+
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 
