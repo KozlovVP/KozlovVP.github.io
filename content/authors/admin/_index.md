@@ -25,7 +25,7 @@ organizations:
     url: https://www.rudn.ru/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Занимаюсь разработкой приложений на фреймворке Qt для C++. Написал много интересных проектов: мониторинг сотрудников, stock advisor, SpotifyAnalogue. Вы можете их найти на моем Гитхабе
+bio: Занимаюсь разработкой приложений на фреймворке Qt для C++. Написал много интересных проектов.
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
