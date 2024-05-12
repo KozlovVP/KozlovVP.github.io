@@ -1,69 +1,20 @@
 ---
-## Front matter
-title: "Прохождение внешнего курса"
-subtitle: "Раздел 1. Безопасность сети"
-author: "Козлов Всеволод Павлович"
+title: Прохождение внешнего курса
+summary: Раздел 3. Криптография на практике
+date: 2024-05-12
 
-## Generic otions
-lang: ru-RU
-toc-title: "Содержание"
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 
-## Bibliography
-bibliography: bib/cite.bib
-csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
+authors:
+  - admin
 
-## Pdf output format
-toc: true # Table of contents
-toc-depth: 2
-lof: true # List of figures
-lot: true # List of tables
-fontsize: 12pt
-linestretch: 1.5
-papersize: a4
-documentclass: scrreprt
-## I18n polyglossia
-polyglossia-lang:
-  name: russian
-  options:
-  - spelling=modern
-  - babelshorthands=true
-polyglossia-otherlangs:
-  name: english
-## I18n babel
-babel-lang: russian
-babel-otherlangs: english
-## Fonts
-mainfont: PT Serif
-romanfont: PT Serif
-sansfont: PT Sans
-monofont: PT Mono
-mainfontoptions: Ligatures=TeX
-romanfontoptions: Ligatures=TeX
-sansfontoptions: Ligatures=TeX,Scale=MatchLowercase
-monofontoptions: Scale=MatchLowercase,Scale=0.9
-## Biblatex
-biblatex: true
-biblio-style: "gost-numeric"
-biblatexoptions:
-  - parentracker=true
-  - backend=biber
-  - hyperref=auto
-  - language=auto
-  - autolang=other*
-  - citestyle=gost-numeric
-## Pandoc-crossref LaTeX customization
-figureTitle: "Рис."
-tableTitle: "Таблица"
-listingTitle: "Листинг"
-lofTitle: "Список иллюстраций"
-lotTitle: "Список таблиц"
-lolTitle: "Листинги"
-## Misc options
-indent: true
-header-includes:
-  - \usepackage{indentfirst}
-  - \usepackage{float} # keep figures where there are in the text
-  - \floatplacement{figure}{H} # keep figures where there are in the text
+tags:
+  - Infosec courses
+  - Hugo Blox
+  - Markdown
 ---
 
 # Цель работы
@@ -72,9 +23,9 @@ header-includes:
 
 # Выполнение лабораторной работы
 
-Задание №1 (рис. [-@fig:001]).
+Задание №1 
 
-![Задание 1](image/1.png){#fig:001 width=70%}
+![Задание №1](1.png)
 
 Задание №2 (рис. [-@fig:002]).
 
@@ -167,6 +118,3 @@ header-includes:
 # Список литературы{.unnumbered}
 
 Внешний курс ["Основы кибербезопасности"](https://stepik.org/course/111512)
-
-::: {#refs}
-:::
