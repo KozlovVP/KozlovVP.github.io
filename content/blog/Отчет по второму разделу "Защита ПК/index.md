@@ -1,7 +1,7 @@
 ---
 title: Прохождение внешнего курса
 summary: Раздел 2. Защита ПК/телефона.
-date: 2024-05-11
+date: 2024-05-10
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
